@@ -9,6 +9,6 @@ while True:
     print "Success Stash"
     time.sleep(900)
     subprocess.call('sudo pkill airodump-ng', shell=True)
-    subprocess.call('sudo pkill version.py', shell=True)
+    subprocess.call('sudo pkill versioning.py', shell=True)
     subprocess.call('sudo python merge.py', shell=True)
     time.sleep(1)
