@@ -33,7 +33,7 @@ def removeExcess():
 #    subprocess.Popen('python stash.py', shell=True)
 
 def killVersioning():
-    subprocess.call('pkill -1 -f stash.py', shell=True)
+    subprocess.call('pkill -1 -f versioning.py', shell=True)
 
 def main():
 #    for nl in glob.glob("num*.csv"):
